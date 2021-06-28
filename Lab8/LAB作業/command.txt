@@ -1,0 +1,4 @@
+cd C:\Users\admin\Desktop\dd\Lab8\LAB作業
+iverilog -o test testbench.v
+vvp test
+	

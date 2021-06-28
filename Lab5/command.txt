@@ -1,0 +1,8 @@
+
+
+
+cd C:\Users\admin\Desktop\dd\Lab5\demo
+
+iverilog -o test tb_lab5.v
+
+vvp test

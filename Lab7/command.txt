@@ -1,0 +1,13 @@
+16bit
+
+cd C:\Users\admin\Desktop\dd\Lab7\practice
+iverilog -o test 16bit_testbench.v
+vvp test
+	
+
+64bit
+
+cd C:\Users\admin\Desktop\dd\Lab7\homework
+iverilog -o test 64bit_testbench.v
+vvp test
+	

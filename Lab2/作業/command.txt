@@ -1,0 +1,7 @@
+cd C:\Users\admin\Desktop\dd\Lab2\作業
+
+iverilog  –o  test  HW2_testBench_add4.v add4.v
+
+vvp  test
+
+gtkwave add4.vcd

@@ -1,0 +1,3 @@
+cd C:\Users\admin\Desktop\dd\Lab9
+iverilog -o test tb_lab9_hw_unsigned.v
+vvp test

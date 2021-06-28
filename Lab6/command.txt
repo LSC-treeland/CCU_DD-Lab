@@ -1,0 +1,8 @@
+cd C:\Users\admin\Desktop\dd\Lab6
+iverilog -o test1 16bit_testbench.v
+vvp test1
+
+cd C:\Users\admin\Desktop\dd\Lab6
+iverilog -o test2 16bit_testbench2.v
+vvp test2
+gtkwave 16bit_RCA.fsdb

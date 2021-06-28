@@ -1,0 +1,5 @@
+cd C:\Users\admin\Desktop\dd\Lab1\作業
+
+iverilog  –o  dio  HW1_testBench_add4.v add2.v
+
+vvp  dio
